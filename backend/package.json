@@ -1,17 +1,15 @@
 {
-  "name": "chatapp",
+  "name": "chat_app_backend",
   "version": "1.0.0",
-  "description": "real time chat app based on socket io",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "tsc -b && node ./dist/index.js"
   },
-  "author": "satyam rai",
+  "author": "satyam",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^4.21.2",
-    "mongoose": "^8.9.0",
-    "socket.io": "^4.8.1"
+    "@types/ws": "^8.18.1",
+    "ws": "^8.18.1"
   }
 }
